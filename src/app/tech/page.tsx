@@ -22,13 +22,13 @@ const Tech = () => {
   const codingskills = ["frontend", "backend", "website", "deploy", "git"];
   const softskills = ["collaboration", "communication", "adaptability", "time", "problem", "creativity"];
 
-  const codingClickHandler = (e) => {
+  const codingClickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setCoding(true);
     setSoft(false);
   };
 
-  const softClickHandler = (e) => {
+  const softClickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setCoding(false);
     setSoft(true);

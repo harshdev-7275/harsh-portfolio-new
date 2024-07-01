@@ -23,13 +23,13 @@ const Contact = () => {
           (result) => {
             // setSuccess(true);
             toast.success('Email sent successfully!');
-            formRef.current.reset();
+            formRef?.current?.reset();
           },
           (error) => {
             console.log(error);
             // setError(true);
             toast.error('Something went wrong!');
-            formRef.current.reset();
+            formRef?.current?.reset();
           }
         );
     }
