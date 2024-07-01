@@ -16,7 +16,7 @@ import React from 'react'
         <h3  className='text-2xl font-semibold'>{title}</h3>
         <p className='text-sm transition-all'>{description}</p>
         <Link href={link} target="_blank" rel="noopener noreferrer" className='bg-gray-700 text-white px-3 py-2 rounded-md hover:scale-105 transition-transform hover:bg-white hover:text-black'>
-          Learn More
+          See More
         </Link>
         </div>
       </div>
