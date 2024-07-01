@@ -13,7 +13,7 @@ export default function Home() {
           <Image src={men} width={500} height={500} alt="men" />
         </div>
         <div className="flex flex-col items-center justify-center gap-10">
-          <p className="text-gray-600 text-xl">Hello, I'm</p>
+          <p className="text-gray-600 text-xl">Hello, I&apos;m</p>
           <h1 className="text-5xl font-bold text-gray-800 hover-effect">
             <span className="hover:text-gray-500 transition-colors">H</span>
             <span className="hover:text-gray-500 transition-colors">a</span>
@@ -31,8 +31,8 @@ export default function Home() {
             <span className="hover:text-gray-500 transition-colors">h</span>
           </h1>
           <p className="text-gray-600 text-xl text-center max-w-[650px]">
-            Welcome to my portfolio! I'm a full stack developer with a passion
-            for building scalable and efficient web applications. Here you'll
+            Welcome to my portfolio! I&apos;m a full stack developer with a passion
+            for building scalable and efficient web applications. Here you&apos;ll
             find a showcase of my projects, skills, and experiences.
           </p>
         </div>
