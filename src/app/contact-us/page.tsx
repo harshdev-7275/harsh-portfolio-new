@@ -37,9 +37,9 @@ const Contact = () => {
 
   return (
     <div className="text-black min-h-screen max-w-full mx-auto pt-16">
-      <div className="container mx-auto w-full h-full flex flex-col md:flex-row items-center justify-between gap-7 md:gap-[15rem]">
+      <div className="container mx-auto max-w-full h-full mx-a flex flex-col md:flex-row items-center justify-between gap-7 md:gap-[15rem]">
         <div className="flex flex-col items-center md:items-start">
-          <h1 className="text-5xl text-center md:text-start md:text-9xl font-bold w-[500px]">Let&apos;s Work Together</h1>
+          <h1 className="text-3xl text-center md:text-start md:text-9xl font-bold w-[500px]">Let&apos;s Work Together</h1>
           <div className="flex flex-row mt-7 gap-10">
             <Link
               href={"https://github.com/harshdev-7275?tab=repositories"}
